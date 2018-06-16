@@ -1,0 +1,114 @@
+body {
+    position: relative;
+    background-color: black;
+}
+div.col-sm-9 div {
+    height: 250px;
+    font-size: 28px;
+}
+#section1 {color: #fff; background-color: #1E88E5;}
+#section2 {color: #fff; background-color: #673ab7;}
+#section3 {color: #fff; background-color: #ff9800;}
+#section4 {color: #fff; background-color: #00bcd4;}
+#section5 {color: #fff; background-color: #9b59b6;}
+
+@media screen and (max-width: 810px) {
+    #section1, #section2, #section3, #section4 {
+        margin-left: 150px;
+    }
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Cormorant Garamond';
+    border-bottom: 3px solid #e66c7e;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: 35px;
+    margin-bottom: 57px;
+    text-align: center;
+    text-indent: 24px;
+    text-transform: uppercase;
+}
+
+p {
+    color: #fff;
+
+    font-family: 'Cormorant Garamond';
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 48px;
+    max-width: 640px;
+    margin: 0 auto 48px;
+    text-align: center;
+}
+
+a {
+    color: #e66c7e;	border-bottom: 2px solid #e66c7e;
+    font-family: 'Cormorant Garamond';
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
